@@ -36,4 +36,15 @@ select * from friends;
 select * from time;
 select * from friend_association;
 
-insert into friend_association (friends_id, time_id) values (3,1000);
+insert into friend_association (friends_id, time_id) values (3,1);
+insert into friend_association (friends_id, time_id) values (2,2);
+insert into friend_association (friends_id, time_id) values (1,3);
+
+SELECT * from friends
+Limit 1;
+
+SELECT * from time
+LIMIT 2;
+
+SELECT * from friend_association
+LIMIT 3;
